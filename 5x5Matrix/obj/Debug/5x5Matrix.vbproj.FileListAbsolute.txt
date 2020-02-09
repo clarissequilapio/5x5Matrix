@@ -1,0 +1,11 @@
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\bin\Debug\5x5Matrix.exe.config
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\bin\Debug\5x5Matrix.exe
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\bin\Debug\5x5Matrix.pdb
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\bin\Debug\5x5Matrix.xml
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\5x5Matrix.vbprojAssemblyReference.cache
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\_5x5Matrix.Form1.resources
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\_5x5Matrix.Resources.resources
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\5x5Matrix.vbproj.GenerateResource.cache
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\5x5Matrix.exe
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\5x5Matrix.xml
+C:\Users\Clarisse\source\repos\5x5Matrix\5x5Matrix\obj\Debug\5x5Matrix.pdb
