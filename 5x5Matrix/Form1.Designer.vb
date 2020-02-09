@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -47,6 +48,7 @@ Partial Class Form1
         Me.PictureBox23 = New System.Windows.Forms.PictureBox()
         Me.PictureBox24 = New System.Windows.Forms.PictureBox()
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,7 +91,7 @@ Partial Class Form1
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox2.Location = New System.Drawing.Point(83, 13)
+        Me.PictureBox2.Location = New System.Drawing.Point(89, 13)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -100,7 +102,7 @@ Partial Class Form1
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox3.Location = New System.Drawing.Point(157, 13)
+        Me.PictureBox3.Location = New System.Drawing.Point(169, 13)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -111,7 +113,7 @@ Partial Class Form1
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox4.Location = New System.Drawing.Point(231, 13)
+        Me.PictureBox4.Location = New System.Drawing.Point(249, 13)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -122,7 +124,7 @@ Partial Class Form1
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox5.Location = New System.Drawing.Point(305, 13)
+        Me.PictureBox5.Location = New System.Drawing.Point(329, 13)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -133,7 +135,7 @@ Partial Class Form1
         '
         Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox6.Location = New System.Drawing.Point(9, 87)
+        Me.PictureBox6.Location = New System.Drawing.Point(9, 93)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -144,7 +146,7 @@ Partial Class Form1
         '
         Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox7.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox7.Location = New System.Drawing.Point(83, 87)
+        Me.PictureBox7.Location = New System.Drawing.Point(89, 93)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -155,7 +157,7 @@ Partial Class Form1
         '
         Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox8.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox8.Location = New System.Drawing.Point(157, 87)
+        Me.PictureBox8.Location = New System.Drawing.Point(169, 93)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -166,7 +168,7 @@ Partial Class Form1
         '
         Me.PictureBox9.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox9.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox9.Location = New System.Drawing.Point(231, 87)
+        Me.PictureBox9.Location = New System.Drawing.Point(249, 93)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -177,7 +179,7 @@ Partial Class Form1
         '
         Me.PictureBox10.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox10.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox10.Location = New System.Drawing.Point(305, 87)
+        Me.PictureBox10.Location = New System.Drawing.Point(329, 93)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -188,7 +190,7 @@ Partial Class Form1
         '
         Me.PictureBox11.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox11.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox11.Location = New System.Drawing.Point(9, 161)
+        Me.PictureBox11.Location = New System.Drawing.Point(9, 173)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -199,7 +201,7 @@ Partial Class Form1
         '
         Me.PictureBox12.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox12.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox12.Location = New System.Drawing.Point(83, 161)
+        Me.PictureBox12.Location = New System.Drawing.Point(89, 173)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -210,7 +212,7 @@ Partial Class Form1
         '
         Me.PictureBox13.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox13.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox13.Location = New System.Drawing.Point(157, 161)
+        Me.PictureBox13.Location = New System.Drawing.Point(169, 173)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -221,7 +223,7 @@ Partial Class Form1
         '
         Me.PictureBox14.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox14.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox14.Location = New System.Drawing.Point(231, 161)
+        Me.PictureBox14.Location = New System.Drawing.Point(249, 173)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -232,7 +234,7 @@ Partial Class Form1
         '
         Me.PictureBox15.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox15.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox15.Location = New System.Drawing.Point(305, 161)
+        Me.PictureBox15.Location = New System.Drawing.Point(329, 173)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -243,7 +245,7 @@ Partial Class Form1
         '
         Me.PictureBox16.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox16.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox16.Location = New System.Drawing.Point(9, 235)
+        Me.PictureBox16.Location = New System.Drawing.Point(9, 253)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -254,7 +256,7 @@ Partial Class Form1
         '
         Me.PictureBox17.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox17.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox17.Location = New System.Drawing.Point(83, 235)
+        Me.PictureBox17.Location = New System.Drawing.Point(89, 253)
         Me.PictureBox17.Name = "PictureBox17"
         Me.PictureBox17.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -265,7 +267,7 @@ Partial Class Form1
         '
         Me.PictureBox18.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox18.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox18.Location = New System.Drawing.Point(157, 235)
+        Me.PictureBox18.Location = New System.Drawing.Point(169, 253)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -276,7 +278,7 @@ Partial Class Form1
         '
         Me.PictureBox19.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox19.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox19.Location = New System.Drawing.Point(231, 235)
+        Me.PictureBox19.Location = New System.Drawing.Point(249, 253)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -287,7 +289,7 @@ Partial Class Form1
         '
         Me.PictureBox20.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox20.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox20.Location = New System.Drawing.Point(305, 235)
+        Me.PictureBox20.Location = New System.Drawing.Point(329, 253)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -298,7 +300,7 @@ Partial Class Form1
         '
         Me.PictureBox21.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox21.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox21.Location = New System.Drawing.Point(9, 309)
+        Me.PictureBox21.Location = New System.Drawing.Point(9, 333)
         Me.PictureBox21.Name = "PictureBox21"
         Me.PictureBox21.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -309,7 +311,7 @@ Partial Class Form1
         '
         Me.PictureBox22.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox22.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox22.Location = New System.Drawing.Point(83, 309)
+        Me.PictureBox22.Location = New System.Drawing.Point(89, 333)
         Me.PictureBox22.Name = "PictureBox22"
         Me.PictureBox22.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -320,7 +322,7 @@ Partial Class Form1
         '
         Me.PictureBox23.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox23.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox23.Location = New System.Drawing.Point(157, 309)
+        Me.PictureBox23.Location = New System.Drawing.Point(169, 333)
         Me.PictureBox23.Name = "PictureBox23"
         Me.PictureBox23.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -331,7 +333,7 @@ Partial Class Form1
         '
         Me.PictureBox24.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox24.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox24.Location = New System.Drawing.Point(231, 309)
+        Me.PictureBox24.Location = New System.Drawing.Point(249, 333)
         Me.PictureBox24.Name = "PictureBox24"
         Me.PictureBox24.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -342,19 +344,22 @@ Partial Class Form1
         '
         Me.PictureBox25.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox25.Image = Global._5x5Matrix.My.Resources.Resources.off
-        Me.PictureBox25.Location = New System.Drawing.Point(305, 309)
+        Me.PictureBox25.Location = New System.Drawing.Point(329, 333)
         Me.PictureBox25.Name = "PictureBox25"
         Me.PictureBox25.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox25.TabIndex = 24
         Me.PictureBox25.TabStop = False
         '
+        'Timer1
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(482, 418)
+        Me.ClientSize = New System.Drawing.Size(418, 425)
         Me.Controls.Add(Me.PictureBox25)
         Me.Controls.Add(Me.PictureBox24)
         Me.Controls.Add(Me.PictureBox23)
@@ -438,4 +443,5 @@ Partial Class Form1
     Friend WithEvents PictureBox23 As PictureBox
     Friend WithEvents PictureBox24 As PictureBox
     Friend WithEvents PictureBox25 As PictureBox
+    Friend WithEvents Timer1 As Timer
 End Class
