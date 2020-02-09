@@ -51,6 +51,10 @@
         TurnOn(Convert.ToBoolean(Not b Or d Or c), PictureBox3)
         TurnOn(Convert.ToBoolean(c Or a Or Not (b Xor d)), PictureBox4)
         TurnOn(b, PictureBox5)
+        TurnOn(Convert.ToBoolean(a Or (Not c And Not d) Or (b And (Not c Or Not d))), PictureBox6)
+        TurnOn(Convert.ToBoolean(Not a And Not b And Not c And d), PictureBox7)
+        TurnOn(Convert.ToBoolean(Not a And Not b And Not c And d), PictureBox8)
+        TurnOn(Convert.ToBoolean(a Or (Not b And Not d) Or Not (c Xor d)), PictureBox10)
 
 
 
