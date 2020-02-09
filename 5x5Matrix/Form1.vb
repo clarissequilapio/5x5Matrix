@@ -45,8 +45,12 @@
             bin -= 1
         End If
 
-        TurnOn(Convert.ToBoolean((c And (Not b Or d)) Or (b And Not c)), PictureBox1)
 
+        TurnOn(Convert.ToBoolean((c And (Not b Or d)) Or (b And Not c)), PictureBox1)
+        TurnOn(Convert.ToBoolean(c Or a Or Not (b Xor d)), PictureBox2)
+        TurnOn(Convert.ToBoolean(Not b Or d Or c), PictureBox3)
+        TurnOn(Convert.ToBoolean(c Or a Or Not (b Xor d)), PictureBox4)
+        TurnOn(b, PictureBox5)
 
 
 
